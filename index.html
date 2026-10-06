@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FORZA LOCATION — location automobile à Sens et dans l'Yonne.">
+  <title>FORZA LOCATION — Location automobile</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html" aria-label="FORZA LOCATION accueil">
+      <span>FORZA</span> LOCATION
+    </a>
+    <nav>
+      <a href="#vehicules">Véhicules</a>
+      <a href="#experience">L'expérience</a>
+      <a href="#reservation">Réserver</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#reservation">Réserver</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">LOCATION AUTOMOBILE · SENS · YONNE</p>
+        <h1>Le prestige ne se loue pas,<br><em>il se vit.</em></h1>
+        <p class="hero-text">Une location automobile pensée pour ceux qui recherchent simplicité, flexibilité et qualité de service.</p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="#reservation">Réserver un véhicule</a>
+          <a class="btn btn-outline" href="#vehicules">Découvrir la flotte</a>
+        </div>
+      </div>
+      <div class="hero-scroll">DÉCOUVRIR <span>↓</span></div>
+    </section>
+
+    <section class="intro">
+      <p class="eyebrow">FORZA LOCATION</p>
+      <h2>Une autre façon de louer.</h2>
+      <p>Une expérience automobile claire et flexible, de la réservation au retour du véhicule.</p>
+    </section>
+
+    <section id="vehicules" class="fleet section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">LA FLOTTE</p>
+          <h2>Nos véhicules</h2>
+        </div>
+        <span class="section-note">Disponible prochainement en ligne</span>
+      </div>
+      <div class="vehicle-grid">
+        <article class="vehicle-card">
+          <div class="vehicle-image">RENAULT<br><strong>CLIO</strong></div>
+          <div class="vehicle-info">
+            <p class="vehicle-brand">RENAULT</p>
+            <h3>Clio</h3>
+            <p>Citadine · Confort · Économique</p>
+            <div class="vehicle-meta"><span>200 km/jour</span><span>59,90 € / jour</span></div>
+            <a href="#reservation" class="text-link">Réserver →</a>
+          </div>
+        </article>
+        <article class="vehicle-card">
+          <div class="vehicle-image vehicle-image-light">PEUGEOT<br><strong>208</strong></div>
+          <div class="vehicle-info">
+            <p class="vehicle-brand">PEUGEOT</p>
+            <h3>208 GT Line</h3>
+            <p>Citadine · Style · Dynamique</p>
+            <div class="vehicle-meta"><span>200 km/jour</span><span>49,90 € / jour</span></div>
+            <a href="#reservation" class="text-link">Réserver →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="experience section">
+      <div class="experience-copy">
+        <p class="eyebrow">L'EXPÉRIENCE FORZA</p>
+        <h2>Simple.<br><em>Flexible. Soignée.</em></h2>
+        <p>FORZA LOCATION place l'expérience client au centre de chaque location. Une réservation claire, un véhicule préparé avec soin et un accompagnement disponible.</p>
+        <a class="text-link" href="#reservation">Préparer ma location →</a>
+      </div>
+      <div class="features">
+        <div><span>01</span><h3>Flexibilité</h3><p>Des solutions adaptées à vos besoins et à votre durée de location.</p></div>
+        <div><span>02</span><h3>Simplicité</h3><p>Un parcours pensé pour réserver rapidement, sans démarches inutiles.</p></div>
+        <div><span>03</span><h3>Qualité</h3><p>Des véhicules propres, contrôlés et préparés avant chaque départ.</p></div>
+      </div>
+    </section>
+
+    <section id="reservation" class="booking section">
+      <div>
+        <p class="eyebrow">RÉSERVATION</p>
+        <h2>Votre prochaine location commence ici.</h2>
+        <p>La réservation en ligne sera bientôt disponible. En attendant, contactez FORZA LOCATION pour préparer votre demande.</p>
+      </div>
+      <form class="booking-form" onsubmit="return false;">
+        <label>Véhicule
+          <select><option>Choisir un véhicule</option><option>Renault Clio</option><option>Peugeot 208 GT Line</option></select>
+        </label>
+        <div class="form-row">
+          <label>Départ<input type="date"></label>
+          <label>Retour<input type="date"></label>
+        </div>
+        <label>Votre e-mail<input type="email" placeholder="vous@exemple.fr"></label>
+        <button class="btn btn-red" type="submit">Demander une réservation</button>
+        <small>Formulaire de démonstration — connexion à la base clients prévue à l'étape suivante.</small>
+      </form>
+    </section>
+
+    <section id="contact" class="contact section">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Parlons de votre prochaine location.</h2>
+      <div class="contact-grid">
+        <div><span>E-MAIL</span><a href="mailto:forzalocation@gmail.com">forzalocation@gmail.com</a></div>
+        <div><span>SECTEUR</span><p>Sens · Yonne · Départements limitrophes · Paris</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo"><span>FORZA</span> LOCATION</div>
+    <p>© 2026 FORZA LOCATION — Tous droits réservés.</p>
+  </footer>
+  <script src="assets/script.js"></script>
+</body>
+</html>
